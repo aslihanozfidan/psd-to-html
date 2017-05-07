@@ -18,4 +18,4 @@ import { GalleryComponent } from './gallery/gallery.component';
   declarations: [GalleryComponent],
   providers: [],
 })
-export class HomeModule { }
+export class GalleryModule { }
