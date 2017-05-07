@@ -1,0 +1,32 @@
+.gallery-container {
+  width: 100%;
+  height: 50%; }
+  .gallery-container .gallery-image {
+    width: 25%;
+    height: 50%;
+    float: left; }
+    .gallery-container .gallery-image img {
+      width: 100%;
+      height: 100%; }
+
+.gallery-people-container {
+  width: 85%;
+  margin: auto;
+  height: 50%;
+  color: #4f565b; }
+  .gallery-people-container .people-cont {
+    width: 33%;
+    height: 100px;
+    float: left;
+    padding-top: 80px; }
+    .gallery-people-container .people-cont img {
+      display: block;
+      margin: Auto; }
+    .gallery-people-container .people-cont .people-text {
+      font-size: 12px;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    .gallery-people-container .people-cont .people-name {
+      font-weight: bold; }
+
+/*# sourceMappingURL=gallery.component.css.map */

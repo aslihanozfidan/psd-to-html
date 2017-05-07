@@ -1,0 +1,52 @@
+.slider {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-image: url("../../../assets/sys-images/young-woman.jpg");
+  height: 600px;
+  z-index: -2; }
+  .slider .container {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.46) 0, rgba(125, 185, 232, 0));
+    height: 100%;
+    min-height: 600px;
+    width: 100%;
+    z-index: -1; }
+    .slider .container .title {
+      padding-top: 150px;
+      color: #ffffff;
+      font-size: 60px;
+      width: 90%;
+      margin: auto; }
+      .slider .container .title .btn-basla {
+        display: block;
+        float: left;
+        text-decoration: none;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        color: white;
+        background-color: #c11124;
+        font-size: 13px;
+        text-align: center;
+        border-radius: 2px;
+        transition: background-color 0.5s ease-in-out; }
+        .slider .container .title .btn-basla:active, .slider .container .title .btn-basla:focus, .slider .container .title .btn-basla:hover {
+          color: #a00a1a; }
+      .slider .container .title .btn-kesfet {
+        display: block;
+        float: left;
+        text-decoration: none;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        border-radius: 2px;
+        margin-left: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        transition: border 0.5s ease-in-out; }
+        .slider .container .title .btn-kesfet:active, .slider .container .title .btn-kesfet:focus, .slider .container .title .btn-kesfet:hover {
+          border: 1px solid white; }
+
+/*# sourceMappingURL=home.component.css.map */

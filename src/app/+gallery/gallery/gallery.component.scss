@@ -1,0 +1,43 @@
+.gallery-color-container{
+    width:100%;
+    height: 100%;
+.gallery-container{
+    width:100%;
+    height: 50%;
+    .gallery-image{
+       width:25%;
+       height: 50%;
+       float: left;
+       img{
+           width:100%;
+           height: 100%;
+       }
+    }
+}
+.gallery-people-container{
+    width:85%;
+    margin:auto;
+    height: calc(50% - 150px);  
+    color:#4f565b;  
+    .people-cont{
+        width: 33%;
+        height: 100px;
+        float: left;
+        padding-top:5%;
+        img{
+            display: block;
+            margin:Auto;
+        }
+        .people-text{
+            font-size: 12px;
+            padding-top:15px;
+            padding-bottom: 15px;
+            padding-left:80px;
+        }
+        .people-name{
+            font-weight: bold;
+            padding-left:80px;
+        }
+    } 
+}
+}

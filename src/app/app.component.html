@@ -1,0 +1,11 @@
+<div class="container">
+
+    <span *ngIf="isMobile" (tap)="hideNav()">
+    <md-icon>menu</md-icon>
+    </span>
+    
+    <c-header class="is-mobile-sidenav" *ngIf="!isMobile" #end mode="side" align="start" opened="true"></c-header>
+    <router-outlet></router-outlet>
+    <c-footer></c-footer>
+</div>
+

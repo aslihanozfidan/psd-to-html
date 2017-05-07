@@ -1,0 +1,66 @@
+nav {
+  width: 100%;
+  height: 65px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial; }
+  nav .nav-container {
+    width: 90%;
+    height: 65px;
+    margin: auto; }
+    nav .nav-container ul.right {
+      padding: 0px;
+      margin: 0px;
+      width: 40%;
+      list-style: none;
+      line-height: 65px;
+      float: right; }
+      nav .nav-container ul.right img {
+        height: 40px;
+        margin-top: 11px; }
+      nav .nav-container ul.right li {
+        padding-left: 2%;
+        padding-right: 2%;
+        float: right; }
+        nav .nav-container ul.right li a {
+          text-decoration: none;
+          height: 65px;
+          width: 100%;
+          transition: color 0.5s ease-in-out;
+          letter-spacing: 0.8px; }
+          nav .nav-container ul.right li a:active, nav .nav-container ul.right li a:focus, nav .nav-container ul.right li a:hover {
+            color: #bfbfbf; }
+      nav .nav-container ul.right .kurumsal {
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: border 0.5s ease-in-out; }
+        nav .nav-container ul.right .kurumsal:active, nav .nav-container ul.right .kurumsal:focus, nav .nav-container ul.right .kurumsal:hover {
+          border: 1px solid white; }
+    nav .nav-container ul.left {
+      padding: 0px;
+      margin: 0px;
+      width: 60%;
+      list-style: none;
+      line-height: 65px;
+      float: left; }
+      nav .nav-container ul.left img {
+        height: 40px;
+        margin-top: 11px; }
+      nav .nav-container ul.left li {
+        padding-left: 1.2%;
+        padding-right: 1.2%;
+        float: left; }
+        nav .nav-container ul.left li a {
+          text-decoration: none;
+          height: 65px;
+          width: 100%;
+          transition: color 0.5s ease-in-out;
+          letter-spacing: 0.8px; }
+          nav .nav-container ul.left li a:active, nav .nav-container ul.left li a:focus, nav .nav-container ul.left li a:hover {
+            color: #bfbfbf; }
+
+/*# sourceMappingURL=header.component.css.map */

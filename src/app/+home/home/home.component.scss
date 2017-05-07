@@ -1,0 +1,34 @@
+
+.home-color-container{
+        position: relative;
+        width:100%;
+        height: calc(100% - 600px);
+        min-height: 600px;
+        background-color: #ffd11b;
+        color:#1d1e20;
+    .home-container{
+            width: 85%;
+            min-height: 700px;
+            margin:Auto;
+        .home-content{
+            width:50%;
+            float: left;
+            margin:auto;
+            &:first-child{padding-top:100px;}
+            .home-title{
+                font-size: 55px;
+                color:#ffffff;
+                width:100%;
+            }
+            .home-text{
+                font-size:16px;
+                width:100%;
+            }
+            .home-img{
+                margin:auto;
+                width:282px;
+                height: 381px;
+            }
+        }
+    }
+}

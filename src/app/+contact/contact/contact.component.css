@@ -1,0 +1,28 @@
+.contact-color-container {
+  width: 100%;
+  min-height: 600px;
+  height: 100%;
+  background-color: #ffd11b;
+  color: #ffffff; }
+  .contact-color-container .contact-container {
+    width: 85%;
+    height: 100%;
+    margin: auto; }
+    .contact-color-container .contact-container .contact-content {
+      float: left;
+      width: 30%;
+      padding-top: 200px; }
+      .contact-color-container .contact-container .contact-content:nth-child(2) {
+        width: 70%; }
+      .contact-color-container .contact-container .contact-content .text {
+        font-size: 25px; }
+      .contact-color-container .contact-container .contact-content #user-fn, .contact-color-container .contact-container .contact-content #user-ln, .contact-color-container .contact-container .contact-content #user-eml, .contact-color-container .contact-container .contact-content #country, .contact-color-container .contact-container .contact-content #message {
+        width: 40%;
+        margin: 10px;
+        height: 50px;
+        float: left; }
+      .contact-color-container .contact-container .contact-content #message {
+        width: 82.5%;
+        height: 150px; }
+
+/*# sourceMappingURL=contact.component.css.map */
